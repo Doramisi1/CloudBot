@@ -45,7 +45,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 1000
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -67,16 +67,16 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.warn))
                     user.warn = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 1
                 if (!('role' in user))
                     user.role = 'Beginner'
                 if (!('autolevelup' in user))
                     user.autolevelup = true
 
                 if (!isNumber(user.money))
-                    user.money = 0
+                    user.money = 10.000
                 if (!isNumber(user.atm))
-                    user.atm = 0
+                    user.atm = 10.000
                 if (!isNumber(user.fullatm))
                     user.fullatm = 0
                 if (!isNumber(user.bank))
@@ -195,11 +195,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.premiumTime))
                     user.premiumTime = 0
                 if (!isNumber(user.limitjoin))
-                    user.limitjoin = 0
+                    user.limitjoin = 1000
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 1000,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -213,7 +213,7 @@ export async function handler(chatUpdate) {
                     role: 'Beginner',
                     autolevelup: true,
 
-                    money: 0,
+                    money: 10.000,
                     bank: 0,
                     atm: 0,
                     fullatm: 0,
@@ -309,13 +309,13 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
-                    sPromote: '',
-                    sDemote: '',
-                    delete: true,
+                    sWelcome: 'halo selamat datang',
+                    sBye: 'bye! beban keluarga keluar',
+                    sPromote: 'selamat kamu jadi admin',
+                    sDemote: 'yah gak admin lagi',
+                    delete: false,
                     antiLink: false,
                     viewonce: false,
                     antiToxic: true,
