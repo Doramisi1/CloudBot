@@ -6,17 +6,17 @@ import { fileURLToPath } from 'url'
 
 global.donasi = '6283802603905'
 global.thumbmenu = 'https://telegra.ph/file/ca207893ae26d531cd9c6.jpg'
-global.sig = 
-global.sgh = 
-global.sgc = 
-global.ownernumber = 
+global.sig = [] //your ig
+global.sgh = 'https://github.com/Doramisi1/CloudBot'
+global.sgc = 'https://chat.whatsapp.com/F9OPktOh6dYLt85YCSmnmz','https://chat.whatsapp.com/FUNTCWlsSSuIpCdG91tvFE'
+global.ownernumber = '6283195893959','6281368176386'
 global.owner = [
   ['6281224863098'],
   ['6283195893959'],
   ['6281368176386', 'ega', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['      '] // Want some help?
+global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -38,8 +38,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 
-global.author = 
+global.packname = 'create by'
+global.author = 'sky-gans'
 
 global.multiplier = 69 // The higher, The harder levelup
 
