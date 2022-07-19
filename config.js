@@ -4,16 +4,16 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.donasi = 
-global.thumbmenu =
+global.donasi = '6283802603905'
+global.thumbmenu = 'https://telegra.ph/file/ca207893ae26d531cd9c6.jpg'
 global.sig = 
 global.sgh = 
 global.sgc = 
 global.ownernumber = 
 global.owner = [
-  ['0'],
-  ['0'],
-  [`
+  ['6281224863098'],
+  ['6283195893959'],
+  ['6281368176386', 'ega', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = ['      '] // Want some help?
