@@ -1,5 +1,3 @@
-import dotenv from 'dotenv'
-dotenv.config()
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
