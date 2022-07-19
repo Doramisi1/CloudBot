@@ -4,19 +4,19 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.donasi = process.env.DONASI
-global.thumbmenu = process.env.THUMB_MENU
-global.sig = process.env.LINK_IG
-global.sgh = process.env.LINK_GITHUB
-global.sgc = process.env.LINK_GROUP
-global.ownernumber = process.env.NOWNER
+global.donasi = 
+global.thumbmenu =
+global.sig = 
+global.sgh = 
+global.sgc = 
+global.ownernumber = 
 global.owner = [
   ['0'],
   ['0'],
-  [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
+  [`
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [`${process.env.MODERATOR}`] // Want some help?
+global.mods = ['      '] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -38,8 +38,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = process.env.PACKNAME
-global.author = process.env.AUTHOR
+global.packname = 
+global.author = 
 
 global.multiplier = 69 // The higher, The harder levelup
 
